@@ -3,19 +3,32 @@
 <head> 
 <meta charset="utf-8"> 
 <title></title> 
+<style>
+.center {
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+}
+.box {
+  border: 3px solid #73AD21;
+}
+table { width: 800px; }
+td {  }
+.wide { width: 300px; }
+</style>
 </head>
 <body>
 
-<table>
+<table class="center box">
 	<tr><td colspan="2">
-		<div id="myphoto">
+		<div class="center">
 			<img src="https://ccckmit.github.io/wd107b/exercise/ccc.png"/>
 		</div>
-	<td></td></tr>
-	<tr><td>我的名字</td><td><input type="text" name="myname"/></td></tr>
-	<tr><td>我的網站</td><td><input type="url" name="myurl"/></td></tr>
-	<tr><td>我的email</td><td><input type="email" name="myemail"/></td></tr>
-	<tr><td>我的生日</td><td><input type="date" name="mybirthday"/></td></tr>
+	</tr>
+	<tr><td width="50%">我的名字</td><td><input type="text" name="myname" class="wide"/></td></tr>
+	<tr><td>我的網站</td><td><input type="url" name="myurl" class="wide"/></td></tr>
+	<tr><td>我的email</td><td><input type="email" name="myemail" class="wide"/></td></tr>
+	<tr><td>我的生日</td><td><input type="date" name="mybirthday" class="wide"/></td></tr>
 	<tr><td>我的性別</td><td>
 		<input type="radio" name="mysex" value="male"/>男
 		<input type="radio" name="mysex" value="female"/>女
